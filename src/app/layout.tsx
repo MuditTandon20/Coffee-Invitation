@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://adhya-coffee.vercel.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://coffee-invitation-three.vercel.app"
   ),
   title: "A Little Coffee Question ☕",
   description: `A tiny, playful personality test and a fun question for ${RECIPIENT_NAME}.`,
