@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8C6239" />
+      <stop offset="100%" stop-color="#4A2C1D" />
+    </linearGradient>
+    <linearGradient id="saucerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6CCB2" />
+      <stop offset="100%" stop-color="#DDB892" />
+    </linearGradient>
+  </defs>
+
+  <!-- Saucer -->
+  <ellipse cx="32" cy="54" rx="26" ry="6" fill="url(#saucerGrad)" />
+
+  <!-- Cup Handle -->
+  <path d="M 40 24 C 52 24 52 42 40 42" fill="none" stroke="#6F4E37" stroke-width="4.5" stroke-linecap="round" />
+
+  <!-- Cup Body -->
+  <path d="M 14 20 L 18 46 C 18 50 24 52 32 52 C 40 52 46 50 46 46 L 50 20 Z" fill="url(#cupGrad)" />
+
+  <!-- Coffee surface -->
+  <ellipse cx="32" cy="20" rx="18" ry="4" fill="#2C1810" />
+  <ellipse cx="32" cy="20" rx="15" ry="3" fill="#3D2314" />
+
+  <!-- Steam Heart -->
+  <path d="M 32 14 C 30 11 26 10 26 7 C 26 4 29 3 32 6 C 35 3 38 4 38 7 C 38 10 34 11 32 14 Z" fill="#E29578" opacity="0.85" />
+</svg>
