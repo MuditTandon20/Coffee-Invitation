@@ -19,29 +19,29 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://coffee-invitation-three.vercel.app"
   ),
-  title: "A Little Coffee Question ☕",
-  description: `A tiny, playful personality test and a fun question for ${RECIPIENT_NAME}.`,
-  authors: [{ name: "Your Secret Admirer" }],
-  keywords: ["coffee", "invitation", "fun quiz", "mini game"],
+  title: `Strictly Confidential: For ${RECIPIENT_NAME} Only 🕵️‍♀️✨`,
+  description: `A playful, extremely scientific, 100% unnecessary inquiry intended strictly for ${RECIPIENT_NAME}.`,
+  authors: [{ name: "A Curious Friend" }],
+  keywords: ["mystery", "curiosity", "fun quiz", "mini game"],
   openGraph: {
-    title: "A Little Coffee Question ☕",
-    description: `A tiny, playful personality test and a fun question for ${RECIPIENT_NAME}...`,
+    title: `Strictly Confidential: For ${RECIPIENT_NAME} Only 🕵️‍♀️✨`,
+    description: `A playful, extremely scientific inquiry intended strictly for ${RECIPIENT_NAME}... 👀`,
     type: "website",
     locale: "en_US",
-    siteName: "Coffee Date Invitation",
+    siteName: "Strictly Confidential",
     images: [
       {
         url: "/og-preview.png",
         width: 1200,
         height: 630,
-        alt: "A warm cup of coffee with a floating heart",
+        alt: "A mysterious message awaiting your response",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "A Little Coffee Question ☕",
-    description: `A tiny, playful personality test and a fun question for ${RECIPIENT_NAME}...`,
+    title: `Strictly Confidential: For ${RECIPIENT_NAME} Only 🕵️‍♀️✨`,
+    description: `A playful, extremely scientific inquiry intended strictly for ${RECIPIENT_NAME}... 👀`,
     images: ["/og-preview.png"],
   },
   icons: {

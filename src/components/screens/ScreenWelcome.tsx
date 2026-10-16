@@ -43,7 +43,7 @@ export function ScreenWelcome({ onNext }: ScreenWelcomeProps) {
           className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FAF2EB] border border-[#E6CCB2]/50 text-[#7F5539] text-xs font-semibold mb-4"
         >
           <Sparkles className="w-3.5 h-3.5 text-[#E29578]" />
-          <span>A tiny mystery awaits</span>
+          <span>Strictly Confidential • Eyes Only</span>
         </motion.div>
 
         {/* Heading */}

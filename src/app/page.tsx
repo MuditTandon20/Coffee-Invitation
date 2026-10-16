@@ -113,8 +113,8 @@ export default function HomePage() {
       {/* Top Bar with Brand Badge & Sound Toggle */}
       <header className="w-full max-w-xl mx-auto flex items-center justify-between py-2 mb-2 sm:mb-4">
         <div className="flex items-center gap-1.5 text-xs font-semibold tracking-wider uppercase text-[#7F5539]">
-          <span className="text-base">☕</span>
-          <span>Brewing Curiosity</span>
+          <span className="text-base">🕵️‍♀️</span>
+          <span>Strictly Confidential</span>
         </div>
 
         <AudioToggle />
