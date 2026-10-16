@@ -165,6 +165,8 @@ export default function HomePage() {
           {stage === "celebration" && (
             <ScreenCelebration
               key="celebration"
+              answers={answers}
+              result={calculatedResult}
               onRestart={handleRestart}
             />
           )}
